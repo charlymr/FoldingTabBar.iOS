@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
 
   spec.requires_arc = true
 
-  spec.source_files = 'FoldingTabBar/**/*'
+  spec.source_files = 'FoldingTabBar/**/*.{h,m,swift}'
   spec.public_header_files = 'FoldingTabBar/**/*.h'
   spec.frameworks = 'UIKit', 'QuartzCore'
   spec.requires_arc = true
